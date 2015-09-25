@@ -35,15 +35,4 @@ int main() {
     printf("%c\n",letter);
     printf("%p\n",ltrptr);
 
-
-
-
-
-
-
-
-
-
-
-
 }
