@@ -16,5 +16,13 @@ int main() {
     printf("x = %i\n",x);
     printf("value for y = %i\n",*y);
     free(y);
+
+    // Now point y at the STACK!!! REALLY?
+    y = &x;
+    *y = 19;
+    printf("x = %i\n",x);
+    printf("value for y = %i\n",*y);
+    free(y);
+
 }
 
